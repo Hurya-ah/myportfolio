@@ -1,15 +1,17 @@
 {
-  "name": "my",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "tailwindcss": "^3.4.14"
-  }
+  "version": 2,
+  "routes": [
+    {
+      "src": "/about",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/contact.html"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
 }
